@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".resultCustomer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="Your Delivery was Picked by "
+        android:textSize="30sp"
+        android:layout_marginTop="200sp"
+        android:id="@+id/txtResultCtm"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_below="@+id/txtResultCtm"
+        android:id="@+id/txtResultCtm1"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:text="Estimated Delivery time"
+        android:textSize="30sp"
+        android:layout_below="@+id/txtResultCtm1"
+        android:id="@+id/txtResultCtm3"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_below="@+id/txtResultCtm3"
+        android:id="@+id/txtResultCtm4"
+        >
+
+    </TextView>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "439561683083",
+    "firebase_url": "https://deliverit-326b5.firebaseio.com",
+    "project_id": "deliverit-326b5",
+    "storage_bucket": "deliverit-326b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439561683083:android:d4e5e778366155ba3b148e",
+        "android_client_info": {
+          "package_name": "com.example.mp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439561683083-s7qa1qj7dvpbkeln6b2hik8q4ojgj5fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4tXjwCLP_IlwmJ4PyFhqaHV2Mfwyv1LQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439561683083-s7qa1qj7dvpbkeln6b2hik8q4ojgj5fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
