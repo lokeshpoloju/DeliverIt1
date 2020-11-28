@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".customer">
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Customer">
     <TextView
         android:id="@+id/txtCtm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200sp"
         android:text="Enter Order Number"
         android:layout_centerHorizontal="true"
         android:textSize="40sp">
@@ -17,9 +18,10 @@
     </TextView>
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="259sp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
         android:textSize="30sp"
         android:layout_below="@id/txtCtm"
         android:id="@+id/etCtm">
@@ -35,9 +37,13 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         >
-
     </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getDriverTxt"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/btnCtm"
+        ></TextView>
 
-
-
-</RelativeLayout>
+</LinearLayout>

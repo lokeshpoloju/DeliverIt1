@@ -11,15 +11,23 @@
         android:layout_height="wrap_content"
         android:text="Login As"
         android:textSize="30sp"
-        android:layout_above="@+id/button1"
+        android:layout_above="@+id/button"
         android:layout_margin="30sp"
         ></TextView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Admin" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="150sp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
         android:layout_centerVertical="true"
         android:text="Driver" />
     <Button
